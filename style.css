@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Space Grotesk", sans-serif;
+}
+body{
+    padding-top: 60px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 70px ;
+}
+header div{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    display: none !important;
+}
+div a{
+    text-decoration: none;
+    color: black;
+}
+.links{
+    gap: 40px;
+    flex-wrap: wrap;
+}
+img{
+    width: 219px;
+    height: 56px;
+    object-fit: cover;
+}
+.pic img{
+    width: 600px;
+    height: 515px;
+    object-fit: contain;
+}
+section{
+    display: flex;
+}
+.heading h1{
+    width: 531px;
+    font-weight: 600;
+    font-size: 60px;
+}
+.heading p{
+    font-size: 20px;
+    width: 498px;
+    line-height: 28px;
+}
+.re{
+    width: 231px;
+    height: 68px;
+    border-radius: 14px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.heading button{
+    width: 264px;
+    height: 68px;
+    border-radius: 14px;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+}
+.heading{
+    width: auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+}
+#nd{
+    display: none;
+}
+.company img{
+    object-fit: contain;
+    filter: grayscale(100%);
+}
+.company{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    gap: 20px;
+    justify-content: center;
+}
+.ba button{
+    width: 178px;
+    height: 51px;
+    background-color: rgb(185, 255, 102);
+    color: black;
+    border:none;
+    border-radius: 7px;
+}
+.ba p{
+    width: 580px;
+    flex-wrap: wrap;
+}
+.ba{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+}
+@media screen and (max-width: 1024px) {
+    body{
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* background-color: red; */
+    }    
+    *{
+        font-family: "Space Grotesk", sans-serif;
+    }
+    img{
+        width: 144px;
+        height: auto;
+    }
+    .icon{
+        display: block !important;
+        padding-top: 5px;
+    }
+    .links{
+        display: none !important;
+    }
+    .pic img{
+        display: none;
+    }
+    .heading, .heading p, .heading h1, .heading button{
+        width: auto;
+    }
+    .heading p{
+        font-size: 16px;
+    }
+    #nd{
+        display: block;
+        width: 361px;
+        height: auto;
+        object-fit: cover;
+    }
+    
+    .ba{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ba p{
+        width: auto;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+}
