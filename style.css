@@ -107,12 +107,85 @@ section{
     align-items: center;
     gap: 40px;
 }
+.pn{
+    object-fit: contain;
+}
+.my_card{
+    width: 600px;
+    height: 310px;
+    border-radius: 45px;
+    border: 1px solid black;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column auto;
+
+}
+.j1{
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(185, 255, 102);
+    margin-right: 90px;
+    border-radius: 7px;
+
+}
+.j{
+    width: auto;
+}
+.j2{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    border-radius: 7px;
+    margin-right: 100px;
+    background-color: rgb(185, 255, 102);
+}
+.in{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 221px;
+    height: 210px;
+    align-items: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#il{
+    object-fit: cover;
+    width: 210px;
+    height: fit-content;
+    margin-top: 70px;
+    display: flex;
+   align-items: center;
+   text-align: right;
+   margin-left: 69px;
+}
+.ip{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+    margin-right: 50px;
+}
+.ip img{
+width: auto;
+}
+.bg{
+    background-color: rgb(185, 255, 102);
+}
+.bgj{
+    background-color: white;
+}
+.main{
+    margin-top: 80px;
+    display: flex;
+    gap: 40px;
+}
 @media screen and (max-width: 1024px) {
     body{
         padding-top: 30px;
         padding-left: 20px;
         padding-right: 20px;
-        /* background-color: red; */
     }    
     *{
         font-family: "Space Grotesk", sans-serif;
