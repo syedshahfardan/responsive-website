@@ -236,7 +236,9 @@ width: auto;
     .main{
         display: none;
     }
-    
+    .mob_card{
+        display: block;
+    }
     .mob_card{
         background-color:  rgb(185, 255, 102);
         border-radius: 45px;
