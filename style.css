@@ -191,6 +191,22 @@ width: auto;
 .new_card{
     display: none;
 }
+.xyz{
+    margin-top: 80px;
+    display: flex;
+    gap: 40px;
+}
+.xyz p{
+    width: 292px;
+}
+.xyz div{
+    width: auto;
+    gap:10px;
+    display: flex;
+    background-color: rgb(185, 255, 102);
+    border-radius: 7px;
+    align-items: center;
+}
 @media screen and (max-width: 1024px) {
     body{
         padding-top: 30px;
@@ -300,7 +316,6 @@ width: auto;
         justify-content: center;
         padding-left: 50px;
         padding-right: 50px;
-        /* padding-top: 50px; */
         background-color: rgb(243, 243, 243);
         border-radius: 45px;
         margin-top: 30px;
@@ -308,5 +323,47 @@ width: auto;
     }
     .new_card h3{
         font-size: 26px;
+    }
+     .xyz div, .xyz h2{
+        background-color: transparent;
+        width: unset;
+        display: flex;
+        flex-direction: column;
+    }
+    .xyz div{
+        gap: 0px;
+    }
+    #our{
+        width: 226px;
+        background-color: rgb(185, 255, 102);
+        font-size: 36px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        border-radius: 7px;
+
+    }
+    #pro{
+        width: 167px;
+        border-radius: 7px;
+        background-color: rgb(185, 255, 102);
+        font-size: 36px;
+    }
+    .xyz{
+        margin-top: 30px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    .xyz p{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 30px;
+        width: auto;
+        font-size: 16px;
     }
 }
