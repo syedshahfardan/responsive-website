@@ -118,6 +118,7 @@ section{
     background-color: rgb(243, 243, 243);
     display: flex;
     flex-direction: column auto;
+     box-shadow: 0 25px 50px -12px black;
 
 }
 .j1{
@@ -181,6 +182,12 @@ width: auto;
     display: flex;
     gap: 40px;
 }
+#it{
+    display: none;
+}
+.mob_card{
+    display: none;
+}
 @media screen and (max-width: 1024px) {
     body{
         padding-top: 30px;
@@ -225,5 +232,47 @@ width: auto;
         width: auto;
         flex-wrap: wrap;
         text-align: center;
+    }
+    .main{
+        display: none;
+    }
+    
+    .mob_card{
+        background-color:  rgb(185, 255, 102);
+        border-radius: 45px;
+        border: 1px solid black;
+        width: auto;
+        max-height: 309px;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        box-shadow: 0 25px 50px -12px black;
+    }
+    #pa{
+        width: 165px;
+        height: auto;
+        object-fit: contain;
+    
+    }
+    #logo{
+        width: 41px;
+        height: 41px;
+        object-fit: contain;
+        margin-top: 85px;
+        margin-right: 30px;
+    }
+    .size{
+        width: 290px;
+    }
+    .mob_card h3{
+        display: flex;
+        flex-wrap: wrap;
+        width: 183px;
+        background-color: white;
+        font-size: 26px;
+        border-radius: 7px;
+    }
+    .mob_card .m{
+        width: 156px;
     }
 }
