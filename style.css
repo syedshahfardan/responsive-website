@@ -225,6 +225,7 @@ width: auto;
     }
     
     .ba{
+        margin-top: 60px;
         flex-direction: column;
         align-items: center;
     }
@@ -240,6 +241,7 @@ width: auto;
         display: block;
     }
     .mob_card{
+        margin-top: 60px;
         background-color:  rgb(185, 255, 102);
         border-radius: 45px;
         border: 1px solid black;
@@ -276,5 +278,8 @@ width: auto;
     }
     .mob_card .m{
         width: 156px;
+    }
+    .company{
+        margin-top: 60px;
     }
 }
