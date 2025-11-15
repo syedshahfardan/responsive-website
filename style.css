@@ -188,6 +188,9 @@ width: auto;
 .mob_card{
     display: none;
 }
+.new_card{
+    display: none;
+}
 @media screen and (max-width: 1024px) {
     body{
         padding-top: 30px;
@@ -281,5 +284,29 @@ width: auto;
     }
     .company{
         margin-top: 60px;
+    }
+    .new_card button{
+        width: 290px;
+        height: 68px;
+        border-radius: 14px;
+        background-color: black;
+        color: white;
+    }
+    .new_card{
+        width: auto;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 50px;
+        padding-right: 50px;
+        /* padding-top: 50px; */
+        background-color: rgb(243, 243, 243);
+        border-radius: 45px;
+        margin-top: 30px;
+        gap: 20px;
+    }
+    .new_card h3{
+        font-size: 26px;
     }
 }
