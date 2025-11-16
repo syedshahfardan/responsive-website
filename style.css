@@ -221,6 +221,7 @@ width: auto;
     padding-right: 60px;
     margin-top: 80px;
     padding-bottom: 41px;
+    margin-bottom: 30px;
 }
 .desk_card img{
     width: 58px;
@@ -239,18 +240,134 @@ width: auto;
     display: flex;
     align-items: center;
     gap: 25px;
-    /*flex-direction: row;
-    justify-content: space-between;
-    padding-top: 41px; */
 }
 .up .con{
-    /* padding-right: 600px; */
     font-size: 30px;
 }
 .up .on{
     font-size: 60px;
 
 }
+.mobc img{
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+}
+.mobc{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        border-radius: 45px;
+        width: auto;
+        height: auto;
+        padding: 30px;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 25px 50px -12px;
+        margin-bottom: 20px;
+    }
+    .mobc div{
+        display: flex;
+        gap: 25px;
+        text-align: left;
+        align-items: center;
+    }
+    .mobc div p:first-child{
+        font-size: 60px;
+    }
+    .mobca{
+        display: none;
+    }
+    footer{
+        margin-top: 140px;
+        color: white;
+        background-color: #191A23;
+        width: auto;
+        height: auto;
+        /* height: 514px; */
+        border: 1px solid black;
+        border-top-left-radius: 45px;
+        border-top-right-radius: 45px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-top: 55px;
+    }
+    footer .black{
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .links a{
+        color: white;
+        text-decoration: underline;
+    }
+    footer .links{
+        display: flex;
+        gap: 40px;
+    }
+    .black div img{
+        width: 180px;
+        height: auto;
+        object-fit: contain;
+    }
+    footer .form{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+    }
+    .not button{
+        width:  126px;
+        height: 26px;
+        border: 1px solid  rgb(185, 255, 102);
+        background-color:  rgb(185, 255, 102);
+        border-radius: 7px;
+    }
+    .bot button{
+        background-color:  rgb(185, 255, 102);
+        width: 249px;
+        height: 68px;
+        border: 1px solid  rgb(185, 255, 102);
+        border-radius: 14px;
+    }
+    .bot input{
+        background-color: transparent;
+        max-width: 285px;
+        height: 67px;
+        border: 1px solid white;
+        border-radius: 14px;
+        text-align: left;
+        padding-left: 35px;
+    }
+    .bot{
+        width: auto;
+        height: 184px;
+        background-color: #2D2932;
+        border-radius: 14px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .not{
+        display: flex;
+        flex-direction: column;
+        gap: 27px;
+    }
+    .form{
+        margin-top: 66px;
+        margin-bottom: 50px;
+    }
+    header{
+        position: sticky;
+        top: 60px;
+    }
+    .both{
+        display: flex;
+        gap: 40px;
+        margin-bottom: 50px;
+        padding-top: 50px;
+    }
 @media screen and (max-width: 1024px) {
     body{
         padding-top: 30px;
@@ -402,6 +519,7 @@ width: auto;
         justify-content: center;
         text-align: center;
         align-items: center;
+        margin-bottom: 30px;
     }
     .xyz p{
         display: flex;
@@ -412,5 +530,35 @@ width: auto;
     }
     .desk_card{
         display: none;
+    }
+    .mobca{
+        display: block;
+    }
+    .mobc, .mobca{
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid black;
+        border-radius: 45px;
+        width: auto;
+        height: auto;
+        padding: 30px;
+        align-items: center;
+        text-align: center;
+        box-shadow: 0 25px 50px -12px;
+        margin-bottom: 20px;
+    }
+    .mobc div, .mobca div{
+        display: flex;
+        gap: 33px;
+        text-align: left;
+        align-items: center;
+    }
+    .mobc div p:first-child, .mobca div p:first-child{
+        font-size: 30px;
+    }
+    .mobc img, .mobca img{
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
     }
 }
