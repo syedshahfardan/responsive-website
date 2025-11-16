@@ -59,6 +59,11 @@ section{
     background-color: transparent;
     border: 1px solid black;
 }
+.re:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
 .heading button{
     width: 264px;
     height: 68px;
@@ -66,6 +71,11 @@ section{
     background-color: black;
     border: 1px solid black;
     color: white;
+    cursor: pointer;
+}
+.heading button:hover{
+    background-color: rgb(185, 255, 102);
+    color: black;
 }
 .heading{
     width: auto;
@@ -88,6 +98,8 @@ section{
     width: auto;
     gap: 20px;
     justify-content: center;
+    margin-top: 70px;
+    margin-bottom: 140px;
 }
 .ba button{
     width: 178px;
@@ -96,6 +108,11 @@ section{
     color: black;
     border:none;
     border-radius: 7px;
+    cursor: pointer;
+}
+.ba button:hover{
+    background-color: black;
+    color: white;
 }
 .ba p{
     width: 580px;
@@ -284,7 +301,6 @@ width: auto;
         background-color: #191A23;
         width: auto;
         height: auto;
-        /* height: 514px; */
         border: 1px solid black;
         border-top-left-radius: 45px;
         border-top-right-radius: 45px;
@@ -296,11 +312,11 @@ width: auto;
         display: flex;
         justify-content: space-between;
     }
-    footer .links a{
+    footer .link a{
         color: white;
         text-decoration: underline;
     }
-    footer .links{
+    footer .link{
         display: flex;
         gap: 40px;
     }
@@ -561,7 +577,50 @@ width: auto;
         height: 30px;
         object-fit: contain;
     }
-    footer{
+    .import{
         display: none;
+    }
+    footer{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+
+    }
+    footer .link a{
+        display: block !important;
+        text-decoration: none;
+    }
+    footer, footer .black, footer .black .link, footer .form, .bot, .both{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+    }
+    .not{
+        display: flex;
+        align-items: center;
+    }
+    .bot{
+        width: 300px;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-top: 30px;
+    }
+    .bot button{
+        gap: 10px;
+        width: 250px;
+        margin-top: 20px;
+    }
+    .bot input{
+        min-width: 225px;
+        padding: 0px;
+        text-align: left;
+        padding-left: 25px;
+    }
+    .form{
+        align-items: center;
     }
 }
