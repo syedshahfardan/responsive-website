@@ -561,4 +561,7 @@ width: auto;
         height: 30px;
         object-fit: contain;
     }
+    footer{
+        display: none;
+    }
 }
