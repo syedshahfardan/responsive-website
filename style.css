@@ -207,6 +207,50 @@ width: auto;
     border-radius: 7px;
     align-items: center;
 }
+.desk_card{
+    background-color:  rgb(185, 255, 102);
+    border: 1px solid black;
+    border-radius: 45px;
+    width: auto;
+    height: 279px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-top: 80px;
+    padding-bottom: 41px;
+}
+.desk_card img{
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+}
+.ex{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 41px;
+}
+.up{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    /*flex-direction: row;
+    justify-content: space-between;
+    padding-top: 41px; */
+}
+.up .con{
+    /* padding-right: 600px; */
+    font-size: 30px;
+}
+.up .on{
+    font-size: 60px;
+
+}
 @media screen and (max-width: 1024px) {
     body{
         padding-top: 30px;
@@ -365,5 +409,8 @@ width: auto;
         margin-top: 30px;
         width: auto;
         font-size: 16px;
+    }
+    .desk_card{
+        display: none;
     }
 }
